@@ -111,8 +111,25 @@ body {
     font-weight: 400;
     color: #000000;
 } */
+
+
+.bubl-btn{
+    width: 240px;
+    padding: 16px;
+    background: #ED712E;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
 .group_28{
-    top: 240px;
+    top: 20vh;
     
 }
 .for_artists .group_28{
