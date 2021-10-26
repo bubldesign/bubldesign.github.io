@@ -450,9 +450,6 @@
         height: 40px;
     }
     .artists{
-        padding-left: 10px;
-        padding-top: 30px;
-        padding-bottom: unset;
         background: linear-gradient(183.87deg, #1D1D1D -1%, rgba(0, 0, 0, 0) 59.18%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(237, 113, 46, 0.06), rgba(237, 113, 46, 0.06)), url(../images/mobile/hero-artist-mobile.jpg), #1D1D1D;
         background-repeat: no-repeat;
          background-position: center center;
@@ -477,17 +474,8 @@
      .artists p{
         font-size: 18px;
         line-height: 26px;
-        max-width: 320px;
-     
      }
-     .art_bg{
-         display: none;
-     }    
-     .art_sm{
-        display: unset;
-    } 
-    
-
+ 
     .footer{
         padding-top: 40px;
         
