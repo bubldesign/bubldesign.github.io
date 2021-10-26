@@ -7,7 +7,7 @@
         display: none;
     }
     .show_mob{
-        display: unset ;
+        display: unset;
     }
     .text_component{
         height: auto;
@@ -193,18 +193,12 @@
         font-size: 18px;
         line-height: 26px;
         /* or 144% */
-
-
         color: #FFFFFF;
-
-
-        /* Inside Auto Layout */
-
         flex: none;
         order: 1;
         align-self: stretch;
         flex-grow: 0;
-        margin: 8px 0px;
+        margin: 32px 0px;
     
         
     }
@@ -350,7 +344,7 @@
         order: 1;
         align-self: stretch;
         flex-grow: 0;
-        margin: 8px 0px;
+        margin: 24px 0px;
 
     }
     

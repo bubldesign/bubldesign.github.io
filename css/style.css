@@ -1,12 +1,13 @@
 body {
     overflow-x: hidden;
-    
+    font-family: Barlow, sans-serif;
 }
+
 .pl-150{
     padding-left: 125px;
 }
 .show_mob{
-    display: none ;
+    display: none;
 }
 .centar{
     max-width: 1240px;
@@ -123,7 +124,6 @@ body {
     padding: 16px;
     background: #ED712E;
     border-radius: 4px;
-    font-family: Barlow;
     font-size: 18px;
     line-height: 18px;
     /* or 100% */
@@ -231,22 +231,6 @@ body {
     
 }
 
-.social{
-   
-   padding-top: 150px;
-    padding-bottom: 200px;
-
-}
-/* .social{
-    min-width: 1240px;
-    transform-origin: 18.54% 84.47%;
-    background-image: url(../images/g58.png);
-    padding-top: 150px;
-    padding-bottom: 100px;
-   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
 .circle1{
 
     margin-left: 28%;
@@ -275,41 +259,20 @@ body {
     margin-left: 29%;
 
 }
-/* .circles img{
-    position: absolute;
-    margin-top: -95px;
-    z-index: 200;
-   
-} */
 .social h1{
-    
-    width: 131px;
-    height: 56px;
-    margin-bottom: 50px;
-  
-    /* bubl-48 */
-    margin-top: 80px;
-    font-family: Barlow;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 58px;
-    /* or 121% */
-
-
-    /* light-grey */
-
-    color: #EBEBEB;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    line-height: 76px;
+    letter-spacing: 0.01em;
+    margin-top: 80px;
+    margin-bottom:24px;
+    color: #FFFFFF;
 }
 
 .social h2{
     
     max-width: 532px;
     height: 84px;
-    margin-bottom: 48px;
-
     /* bubl-32 */
 
     font-family: Barlow;
@@ -348,28 +311,11 @@ body {
   text-align: center;
 }
 
-
-
-
-.discovery{
-     padding-top: 150px;
-    padding-bottom: 200px;
-    /* background: radial-gradient(32.62% 83.61% at 72.24% 50%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(270deg, #1D1D1D 25.68%, rgba(29, 29, 29, 0) 52.19%), url(../images/discovery-back.jpg), #1D1D1D;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
+.discovery, .streaming, .social{
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
-/* .discovery{
-    min-width: 1240px;
-    transform-origin: 18.54% 84.47%;
-    background-image: url(../images/g58.png);
-    padding-top: 150px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
 .for_artists .discovery{
     background: #1D1D1D;
     padding-top: 0px;
@@ -385,48 +331,31 @@ body {
 
 }
 
-.discovery h1{
-
-    font-family: Barlow;
-    font-style: normal;
+.discovery h1 {
     font-weight: bold;
     font-size: 48px;
     line-height: 76px;
-    /* or 158% */
-    
     letter-spacing: 0.01em;
     margin-top: 80px;
+    margin-bottom:24px;
     color: #FFFFFF;
 }
 
 .discovery h2{
     margin-top: 50;
     max-width: 552.87px;
-
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
-    /* or 131% */
-
-
     color: #FFFFFF;
 }
 
 .discovery p{
     height: 40px;
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    /* or 140% */
-
-
     color: #FFFFFF;
-
-    
 }
 .discovery p img{
     margin-right: 17px;  
@@ -439,29 +368,6 @@ body {
     margin-top: -200px;
     margin-left: -35%;
 }
-
-
-.streaming{
-    padding-top: 150px;
-    padding-bottom: 200px;
-    
-   /*  background: linear-gradient(90deg, #030303 50.69%, rgba(0, 0, 0, 0) 59.97%), url(../images/streaming-back.jpg);
-    background-blend-mode: multiply, normal;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
-}
-
-/* .streaming{
-    min-width: 1240px;
-    transform-origin: 18.54% 84.47%;
-    background-image: url(../images/rect248.png);
-    padding-top: 150px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
 .for_artists .streaming{
     background: #282828;
     padding-top: 0px;
@@ -476,46 +382,31 @@ body {
     padding-bottom: 150px;
 
 }
-.streaming .phone{
-    text-align: left;
-}
 
 .streaming h1{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 76px;
-    /* or 158% */
-    margin-top: 80px;
     letter-spacing: 0.01em;
-
+    margin-top: 80px;
+    margin-bottom:24px;
     color: #FFFFFF;
 }
 
 .streaming h2{
-    max-width: 466px;
-    margin-top: 50px;
-    font-family: Barlow;
-    font-style: normal;
+    margin-top: 50;
+    max-width: 552.87px;
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
-    /* or 131% */
-
-
     color: #FFFFFF;
 }
 
 .streaming h3{
-    font-family: Barlow;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 34px;
-    /* identical to box height, or 142% */
-
-
     color: #FFFFFF;
 }
 .streaming p{
@@ -524,11 +415,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-
-
     color: #FFFFFF;
-
 }
 
 .str_div img{
@@ -673,6 +560,7 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
+    margin-top: -12px;
     /* or 142% */
 
 
@@ -732,7 +620,7 @@ body {
 
 .image2 {
     position: absolute;
-    padding-left: 50px;
+    left:5%;
     
   }
   .image1 {
@@ -772,6 +660,7 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
+    margin-top: -12px;
     /* or 142% */
 
 
@@ -867,6 +756,7 @@ body {
     color: #FFFFFF;
 }
 
+
 .artists h1{
     font-family: Barlow;
     font-style: normal;
@@ -874,8 +764,6 @@ body {
     font-size: 48px;
     line-height: 58px;
     /* identical to box height, or 121% */
-
-
     color: #FFFFFF;
 }
 .artists h2{
@@ -986,7 +874,7 @@ body {
 		/* orange */
 		radial-gradient(13.93% 41.8% at 25vw, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
 		/* main background colour */
-		#1d1d1d;
+		#282828;
 }
 
 
