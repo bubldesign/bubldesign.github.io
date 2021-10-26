@@ -795,12 +795,14 @@ body {
     color: #FFFFFF;
 
 }
+
+.social-link {
+    padding-right: 16px;
+}
+
 .btn_center{
     text-align: right;
     padding-top: 7%;
-}
-.sm-footer{
-    display: none;
 }
 .footer{
     padding-top: 64px;
@@ -812,20 +814,19 @@ body {
 
 
 .footer p{
-    width: 538px;
     height: 26px;
     margin-top: 17px;
-    /* bubl-14 */
-
     font-family: Barlow;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
     color: #000000;
 
+}
+
+.footer p a {
+    color: #000000;
 }
 
 .revenues{

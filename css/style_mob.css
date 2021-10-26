@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) { 
+
+    .core h1 {
+        font-size: 32px;
+    }
+
     .centar{
         max-width: 768px;
         
@@ -482,22 +487,13 @@
         display: unset;
     } 
     
-    .bg-footer{
-        display: none;
-    }
-    .sm-footer{
-        display: unset;
-    }
+
     .footer{
         padding-top: 40px;
         
     }
-    .footer p{
-        max-width: 320px;
-    }
-    
 
-    .content-left, .content-right {
+    .content-left {
         background: 
             /* bright orange */
             radial-gradient(25% 90% at 50vh, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
@@ -508,5 +504,16 @@
             /* main background colour */
             #1d1d1d;
         }
+        .content-right {
+            background: 
+                /* bright orange */
+                radial-gradient(25% 90% at 50vh, rgba(133, 103, 87, 0.17) 12.06%, rgba(0, 0, 0, 0) 100%), 
+                /* purple */
+                radial-gradient(50% 60% at 50vw, rgba(123, 97, 255, 0.23) 0%, rgba(0, 0, 0, 0) 100%), 
+                /* orange */
+                radial-gradient(75% 41.8% at 50vh, rgba(126, 78, 78, 0.18) 0%, rgba(29, 29, 29, 0.18) 100%),
+                /* main background colour */
+                #282828;
+            }
     
 }
