@@ -14,13 +14,13 @@
     .show_mob{
         display: unset;
     }
-    .text_component{
+    /* .text_component{
         height: auto;
         margin:  0 auto;
         padding: 10px;
         position: relative;
         max-width: 340px;
-    }
+    } */
     .hero{
         background:url(../images/hero-mobile.jpg);
         background-repeat: no-repeat;
@@ -435,7 +435,6 @@
         width: unset;
     }
     .vip h2{
-        width: 300px;
         margin-top: 16px;
         font-size: 18px;
         line-height: 26px;
@@ -467,7 +466,7 @@
         line-height: 42px;
      }
      .artists h2{
-        font-size: 18px;
+        font-size: 24px;
         line-height: 26px;
      
      }
