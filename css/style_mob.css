@@ -4,8 +4,6 @@
         padding-top: 24px;
         padding-bottom: 24px;
     }
-
-
     .core h1 {
         font-size: 32px;
     }
@@ -94,7 +92,7 @@
         font-size: 18px;
         line-height: 26px;
         color: #FFFFFF;
-
+        max-width: 100%;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
         
     }
@@ -106,7 +104,6 @@
     }
 
     .for_artists .group_28{
-        max-width: 330px;
         height: auto;
         margin:  0 auto;
         padding: 10px;
@@ -114,18 +111,13 @@
     .for_artists .group_28 h1{
         font-size: 48px;
         line-height: 58px;
-        max-width: 316px;
         color: #FFFFFF;
-
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     }
     .for_artists .group_28 p{
         font-size: 18px;
         line-height: 26px;
-        /* or 144% */
-        max-width: 336px;
         color: #FFFFFF;
-
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
         
     }
@@ -136,9 +128,7 @@
         height: 56px;
     }
     .bnav a {
-        font-family: 'Barlow', sans-serif;
-        font-style: normal;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 20px;
         color: #FFFFFF;
     } 
