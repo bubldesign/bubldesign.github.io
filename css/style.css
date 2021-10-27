@@ -191,16 +191,14 @@ body {
 }
 
 .core{
-    padding-top: 100px;
+    padding-top: 80px;
     background: #EBEBEB;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     color: #000000;
 
     
 }
 .core h1{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
@@ -208,21 +206,18 @@ body {
 }
 
 .core h2{
-    font-family: Barlow;
-    font-style: normal;
+
     font-weight: bold;
     font-size: 24px;
     line-height: 24px;
 }
 .core p{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    padding-right: 50px;
+    padding-right: 24px;
+    margin-bottom: 48px;
 }
-
 
 .core img{
     width:64px ;
@@ -259,54 +254,7 @@ body {
     margin-left: 29%;
 
 }
-.social h1{
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 76px;
-    letter-spacing: 0.01em;
-    margin-top: 80px;
-    margin-bottom:24px;
-    color: #FFFFFF;
-}
 
-.social h2{
-    
-    max-width: 532px;
-    height: 84px;
-    /* bubl-32 */
-
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 42px;
-    /* or 131% */
-
-
-    color: #FFFFFF;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-.social p{
-    width: 393px;
-    height: 40px;
-    
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    color: #FFFFFF;
-    
-}
-.social p img{
-    margin-right: 19px;
-    width: 30px;
-    height: 30px;
-
-   
-}
 .phone{
   text-align: center;
 }
@@ -331,7 +279,7 @@ body {
 
 }
 
-.discovery h1 {
+.discovery h1, .social h1 {
     font-weight: bold;
     font-size: 48px;
     line-height: 76px;
@@ -341,26 +289,25 @@ body {
     color: #FFFFFF;
 }
 
-.discovery h2{
-    margin-top: 50;
-    max-width: 552.87px;
+.discovery h2, .social h2{
+    margin-top: 50px;
     font-weight: normal;
     font-size: 32px;
     line-height: 42px;
     color: #FFFFFF;
 }
 
-.discovery p{
+.discovery p, .social p{
     height: 40px;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 38px;
     color: #FFFFFF;
 }
-.discovery p img{
-    margin-right: 17px;  
-    width: 30px;
-    height: 30px; 
+.discovery p img, .social p img{
+    margin-right: 16px;  
+    width: 40px;
+    height: 40px; 
     float: left;
 }
 .mob{
@@ -410,30 +357,27 @@ body {
     color: #FFFFFF;
 }
 .streaming p{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
 }
 
+.str_div {
+    margin-bottom: 32px;
+}
+
 .str_div img{
-    margin-right: 17px; 
-    width: 30px;
-    height: 30px;
+    margin-right: 16px; 
+    width: 40px;
+    height: 40px;
 }
 
 .str_div p{
-    font-family: Barlow;
-    font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    margin-left: 46px; 
-    /* identical to box height, or 140% */
-
-
+    font-size: 18px;
+    margin-top: -8px;
+    margin-left: 55px; 
     color: #FFFFFF;
 }
 
@@ -568,7 +512,6 @@ body {
 }
 
 .jukebox h2{
-    max-width: 513px;
     margin-top: 48px;
     font-family: Barlow;
     font-style: normal;

@@ -1,5 +1,11 @@
 @media screen and (max-width: 768px) { 
 
+    .core {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
     .core h1 {
         font-size: 32px;
     }
@@ -63,7 +69,6 @@
         line-height: 20px;
     }
     .group_28{
-        max-width: 330px;
         height: auto;
         margin:  0 auto;
         padding: 10px;
@@ -71,7 +76,6 @@
     .group_28 h1{
         font-size: 48px;
         line-height: 58px;
-        max-width: 316px;
         color: #FFFFFF;
 
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -79,8 +83,6 @@
     .group_28 p{
         font-size: 18px;
         line-height: 26px;
-        /* or 144% */
-        max-width: 336px;
         color: #FFFFFF;
 
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
@@ -130,18 +132,8 @@
         line-height: 20px;
         color: #FFFFFF;
     } 
-    .core_component{
-        max-width: 330px;
-        height: auto;
-        margin:  0 auto;
-
-    } 
-    .core p{
-        max-width: 375px;
-        
-    }
-
-    .circles{
+  
+  .circles{
         display: none;
     }
     .phone img{
@@ -151,7 +143,7 @@
         max-width: 316px;
 
     }
-    .discovery{
+    .discovery, .social{
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -180,41 +172,35 @@
     
     }
     
-    .discovery h1{
+    .discovery h1, .social h1{
 
         font-size: 32px;
         line-height: 42px;
         margin-top: 40px;
-        margin-left: 15px;
     }
-    .discovery h2{
-        font-size: 18px;
-        line-height: 26px;
-        max-width: 300px;
-        margin-left: 15px;
+    .discovery h2, .social h2, .jukebox h2{
+        font-size: 20px;
+        line-height: 28px;
 
     }
-    .discovery p{
+    .discovery p, .social p{
         font-size: 18px;
-        line-height: 26px;
-        /* or 144% */
+        line-height: 38px;
         color: #FFFFFF;
         flex: none;
         order: 1;
         align-self: stretch;
         flex-grow: 0;
-        margin: 32px 0px;
-    
-        
+        margin: 24px 0px;
     }
-    .discovery p img{
+    .discovery p img,  .social p img{
         float: left;
         width: 40px;
         height: 40px;
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 8px;
+        margin-right: 16px;
     }
 
     .replace{
@@ -260,42 +246,15 @@
     } 
     
     .streaming h2{
-        max-width: 327px;
         margin-top: 0px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 26px;
     }
     .str_div img{
         width: 40px;
         height: 40px;
     }
-    .social{
-   
-        padding-top: 40px;
-        padding-bottom: 0px;
-     
-     }
 
-     .social h1{
-        font-size: 32px;
-        line-height: 42px;
-        margin-bottom: 0px;
-     }
-     .social h2{
-        margin-bottom: 40px;
-        max-width: 327px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-    .social p{
-        width: unset;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-        margin: 8px 0px;
-    }
-   
 
     .kickstarter{
         padding-top: 40px;
@@ -337,7 +296,6 @@
     }
     
     .jukebox h2{
-        width: 320px;
         margin-top: 16px;
     
     }
@@ -436,13 +394,13 @@
     }
     .vip h2{
         margin-top: 16px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 26px;
     }
     
     .vip p{
         font-size: 18px;
-        line-height: 26px;
+        line-height: 38px;
     }
     .vip p img{
         width: 40px;
