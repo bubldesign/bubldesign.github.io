@@ -147,11 +147,9 @@
         display: none;
     }
     .phone img{
-        margin-top: 30px;
-        margin-bottom: 34px;
+        margin-top: 32px;
+        margin-bottom: 32px;
         text-align:center;
-        max-width: 316px;
-
     }
     .discovery, .social{
         padding-top: 0px;
