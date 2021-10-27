@@ -42,9 +42,19 @@
         width: 100%;
         
     }
+
+    .bnav {
+        height: 80px
+    }
+
+    .bubl-logo {
+        width: 106px;
+        height: 32px;
+    }
+
     .bnav .nav{
 
-        right: 0%;
+        right: 1%;
 
     }
     .for_artists .about_item{
@@ -185,23 +195,36 @@
     }
     .discovery p, .social p{
         font-size: 18px;
-        line-height: 38px;
-        color: #FFFFFF;
+        line-height: 26px;
         flex: none;
         order: 1;
         align-self: stretch;
         flex-grow: 0;
-        margin: 24px 0px;
+        margin: 30px 0px;
     }
     .discovery p img,  .social p img{
         float: left;
         width: 40px;
         height: 40px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin-right: 16px;
+        margin-top: -4px;
     }
+
+    .jukebox p{
+        font-size: 18px;
+        line-height: 26px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 30px 0px;
+
+    }
+
+    .jukebox p img{
+        float: left;
+         width: 40px;
+         height: 40px; 
+     }
 
     .replace{
         display: flex;
@@ -300,25 +323,11 @@
     
     }
     
-    .jukebox p{
-        font-size: 18px;
-        line-height: 26px;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-        margin: 24px 0px;
 
-    }
-    
     .for_artists .jukebox p{
         width: 320px;
     }
-    .jukebox p img{
-       float: left;
-        width: 40px;
-        height: 40px; 
-    }
+
     .image2 {
         max-width: 300px;
         padding-left: 0px;
